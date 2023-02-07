@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Instalacion = () => {
   return (
-    <div name='Instalacion' className="w-full h-full lg:h-screen bg-[ADB6BF]">
+    <div name='Instalacion' className="w-full h-full lg:h-screen bg-[#f9fafb]">
     <div className="h-full w-full max-w-7xl lg:pt-20 pt-20 md:mx-auto" >
       <h4 className=" text-green-500 text-2xl
        font-bold text-left md:text-4xl p-4 md:text-center">El proceso</h4>

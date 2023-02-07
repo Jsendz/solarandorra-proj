@@ -3,15 +3,15 @@ import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
 
 export const Info = () => {
   return (
-    <div name='Info' className="bg-slate-300 w-full h-full pt-20 py-10 lg:py-0 lg:h-screen">
-    <div className="h-full min-h-screen w-full overflow-hidden flex flex-col lg:flex-row justify-around items-center max-w-7xl mx-auto bg-slate-300 -z-30 " >
+    <div name='Info' className="bg-[#f9fafb] w-full h-full pt-20 py-10 lg:py-0 lg:h-screen">
+    <div className="h-full min-h-screen w-full overflow-hidden flex flex-col lg:flex-row justify-around items-center max-w-7xl mx-auto bg-[#f9fafb]  -z-30 " >
       <div className="w-full h-full flex flex-col items-center p-2 py-5">
-        <div className="w-full h-full flex flex-col justify-evenly md:pl-8">
-        <h3 className="text-2xl text-center lg:text-left text-red-500 md:text-4xl font-bold py-3 lg:py-0 ">Sobre Nosaltres</h3>
-        <h2 className="font-bold text-3xl md:text-5xl py-3 lg:py-0">La nostra empresa en numeros</h2>
-        <p className=" text-xl py-3 lg:py-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore atque tenetur officiis. Fuga odit, eaque rerum magni enim expedita facilis tenetur voluptatem debitis, explicabo esse consequatur asperiores tempore excepturi voluptates.</p>
-        <div className="w-full flex justify-around items-center py-4 lg:py-0 ">
-          <div className="w-full flex flex-col  items-center">
+        <div className="w-full h-full flex flex-col justify-evenly lg:justify-center md:pl-8">
+        <h3 className="text-2xl text-center lg:text-left text-red-500 md:text-4xl font-bold py-3 lg:py-3 ">Sobre Nosaltres</h3>
+        <h2 className="font-bold text-3xl md:text-5xl py-3 lg:py-3">La nostra empresa en numeros</h2>
+        <p className=" text-xl py-3 lg:py-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore atque tenetur officiis. Fuga odit, eaque rerum magni enim expedita facilis tenetur voluptatem debitis, explicabo esse consequatur asperiores tempore excepturi voluptates.</p>
+        <div className="w-full flex flex-row justify-start items-center py-4 lg:py-3 ">
+          <div className="w-full flex flex-col  items-start">
             <h2 className="text-md text-center md:text-1xl font-bold ">Instalaciones Nacionales</h2>
             <div className="py-5">
         <CircularProgress value={30} size='100px' color='green.400'>
@@ -19,7 +19,7 @@ export const Info = () => {
 </CircularProgress>
 </div>
          </div>
-         <div className="w-full flex flex-col items-center">
+         <div className="w-full flex flex-col items-start">
           <h2 className="text-md text-center md:text-1xl font-bold ">Instalaciones Internacionales</h2>
           <div className="py-5">
          <CircularProgress value={70} size='100px' color='green.400'>
@@ -32,7 +32,7 @@ export const Info = () => {
         </div>
       </div>
         </div>
-      <div className="relative w-full py-2 lg:pb-14">
+      <div className="relative w-full py-2 lg:pb-20">
         <div className="absolute w-40 h-40 bg-teal-400 rounded-full -left-4 -top-10 -z-10 "></div>
         <div className="absolute w-28 h-24 md:w-40 md:h-40 bg-red-300 rounded-lg right-32 md:right-24 md: -bottom-12 md:bottom-2 flex flex-col justify-center z-20">
           <span className="text-2xl md:text-4xl font-bold">+10 Anys</span>
