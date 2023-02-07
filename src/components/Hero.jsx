@@ -22,7 +22,7 @@ export const Hero = () => {
           Com Funciona?
         </Link></button>
         </div>
-        <div className="h-full w-full flex justify-center items-center">
+        <div className="h-full w-full flex justify-center items-center py-2">
             <div className=" ">
             <img className="md:rounded-lg" src="https://img.freepik.com/vector-gratis/empresarios-utilizan-paneles-energia-solar-producir-electricidad-ciudad_335657-3225.jpg?w=740&t=st=1675102667~exp=1675103267~hmac=2d5bcc0f3d73256724d4b2ae35d99f9b52a43292a40764224b8ac67b0716ea43" alt="" />
             </div>
