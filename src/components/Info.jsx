@@ -32,7 +32,7 @@ export const Info = () => {
         </div>
       </div>
         </div>
-      <div className="relative w-full py-2 lg:pt-24">
+      <div className="relative w-full py-2 lg:pb-14">
         <div className="absolute w-40 h-40 bg-teal-400 rounded-full -left-4 -top-10 -z-10 "></div>
         <div className="absolute w-28 h-24 md:w-40 md:h-40 bg-red-300 rounded-lg right-32 md:right-24 md: -bottom-12 md:bottom-2 flex flex-col justify-center z-20">
           <span className="text-2xl md:text-4xl font-bold">+10 Anys</span>
