@@ -4,7 +4,7 @@ import React from 'react'
 export const Hero = () => {
   return (
     
-    <div className="h-full lg:h-screen w-full max-w-7xl md:mx-auto pt-24 md:pt-30 lg:pt-0 flex flex-col lg:flex-row "  >
+    <div name='Hero' className="h-full lg:h-screen w-full max-w-7xl md:mx-auto pt-24 md:pt-30 lg:pt-0 flex flex-col lg:flex-row "  >
         
          <div className="w-full h-full my-auto  flex flex-col  items-center justify-center ">
         <h2 className="w-full lg:w-full mx-auto lg:mx-0 text-center text-4xl md:text-5xl 2xl:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-red-500 py-2 px-1"><span className="">Energia Renovable.</span><br />Tu Hogar.<br />Tranquilidad.</h2>

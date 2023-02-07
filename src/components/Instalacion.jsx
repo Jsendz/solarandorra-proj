@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Instalacion = () => {
   return (
-    <div className="w-full h-full lg:h-screen bg-slate-200">
+    <div name='Instalacion' className="w-full h-full lg:h-screen bg-slate-200">
     <div className="h-full w-full max-w-7xl pt-10 md:mx-auto" >
       <h4 className=" text-green-500 text-lg
        font-bold text-left md:text-4xl p-4 md:text-center">El proceso</h4>

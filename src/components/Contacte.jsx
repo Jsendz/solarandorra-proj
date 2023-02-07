@@ -4,7 +4,7 @@ import {FaPhoneAlt, FaMailBulk, FaLocationArrow, FaLinkedin, FaFacebookF, FaInst
 
 export const Contacte = () => {
   return (
-    <div className="antialiased flex w-full h-full justify-center items-center bg-cyan-800">
+    <div name='Contacte' className="antialiased flex w-full h-full justify-center items-center bg-cyan-800">
         <div className=" flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6  w-full max-w-7xl p-8 sm:p-12 text-white overflow-hidden ">
             <div className=" flex flex-col space-y-8 justify-between">
                 <div>

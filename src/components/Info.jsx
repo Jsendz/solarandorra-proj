@@ -3,7 +3,7 @@ import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
 
 export const Info = () => {
   return (
-    <div className="bg-slate-300 w-full h-full py-10 lg:py-0 lg:h-screen">
+    <div name='Info' className="bg-slate-300 w-full h-full py-10 lg:py-0 lg:h-screen">
     <div className="h-full min-h-screen w-full overflow-hidden flex flex-col lg:flex-row justify-around items-center max-w-7xl mx-auto bg-slate-300 -z-30 " >
       <div className="w-full h-full flex flex-col items-center p-2 py-5">
         <div className="w-full h-full flex flex-col justify-evenly md:pl-8">
