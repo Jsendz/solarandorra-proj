@@ -7,11 +7,11 @@ export const Info = () => {
     <div className="h-full min-h-screen w-full overflow-hidden flex flex-col lg:flex-row justify-around items-center max-w-7xl mx-auto bg-[#f9fafb]  -z-30 " >
       <div className="w-full h-full flex flex-col items-center p-2 py-5">
         <div className="w-full h-full flex flex-col justify-evenly lg:justify-center md:pl-8">
-        <h3 className="text-2xl text-center lg:text-left text-red-500 md:text-4xl font-bold py-3 lg:py-3 ">Sobre Nosaltres</h3>
+        <h3 className="text-3xl text-center lg:text-left text-red-500 md:text-4xl font-bold py-3 lg:py-3 ">Sobre Nosaltres</h3>
         <h2 className="font-bold text-3xl md:text-5xl py-3 lg:py-3">La nostra empresa en numeros</h2>
         <p className=" text-xl py-3 lg:py-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore atque tenetur officiis. Fuga odit, eaque rerum magni enim expedita facilis tenetur voluptatem debitis, explicabo esse consequatur asperiores tempore excepturi voluptates.</p>
         <div className="w-full flex flex-row justify-start items-center py-4 lg:py-3 ">
-          <div className="w-full flex flex-col  items-start">
+          <div className="w-full flex flex-col  items-center lg:items-start">
             <h2 className="text-md text-center md:text-1xl font-bold ">Instalaciones Nacionales</h2>
             <div className="py-5">
         <CircularProgress value={30} size='100px' color='green.400'>
@@ -19,7 +19,7 @@ export const Info = () => {
 </CircularProgress>
 </div>
          </div>
-         <div className="w-full flex flex-col items-start">
+         <div className="w-full flex flex-col items-center lg:items-start">
           <h2 className="text-md text-center md:text-1xl font-bold ">Instalaciones Internacionales</h2>
           <div className="py-5">
          <CircularProgress value={70} size='100px' color='green.400'>

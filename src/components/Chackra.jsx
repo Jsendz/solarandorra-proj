@@ -5,8 +5,8 @@ import React from 'react'
 export const Chackra = () => {
   return (
     <div name='Chackra' className="w-full h-full pt-20 2xl:h-screen bg-[#f9fafb]   ">
-        <h2 className="p-5 text-center text-3xl lg:text-6xl text-slate-800 font-extrabold">Els nostres Serveis</h2>
-        <p className="p-5 text-center text-2xl lg:text-4xl text-amber-600 font-bold">Lo que oferim per asegurar que la teva llar sigui lo mes eficient i autosostenible.</p>
+        <h2 className="p-5 text-center text-3xl lg:text-6xl text-cyan-700 font-bold">Els nostres Serveis</h2>
+        <p className="p-5 text-left lg:text-center text-3xl lg:text-4xl text-slate-800 font-bold">Lo que oferim per asegurar que la teva llar sigui lo mes eficient i autosostenible.</p>
         <div className="w-full max-w-7xl flex flex-col lg:flex-row justify-around items-center mx-auto py-6 lg:pt-20 px-2">
         <div className="py-4 lg:py-0">
    <Card maxW='sm'  boxShadow='2xl' >

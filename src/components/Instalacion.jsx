@@ -4,8 +4,8 @@ export const Instalacion = () => {
   return (
     <div name='Instalacion' className="w-full h-full lg:h-screen bg-[#f9fafb]">
     <div className="h-full w-full max-w-7xl lg:pt-20 pt-20 md:mx-auto" >
-      <h4 className=" text-green-500 text-2xl
-       font-bold text-left md:text-4xl p-4 md:text-center">El proceso</h4>
+      <h4 className=" text-green-500 text-3xl
+       font-bold md:text-4xl p-4 text-center">El proceso</h4>
         <h3 className="text-2xl md:text-5xl font-bold text-left p-4 md:text-center">¿Cómo es una instalación de placas solares en una vivienda?</h3>
      <div className="flex flex-col md:flex-row md:items-start justify-around h-full w-full text-center items-center py-5">
       <div className="md:w-4/5 md:h-full p-4 border-r-indigo-300">
