@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import { Link } from 'react-scroll';
-import Logo from '../assets/logo.png'
+
 
 export const Navbar = () => {
 
@@ -10,31 +10,31 @@ export const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full  h-[80px] bg-white flex justify-between items-center px-4 text-slate-800 z-30 antialiased'>
-    <div>
-      <img src={Logo} alt='Logo Image' style={{ width: '150px' }} />
+    <div className='fixed w-full  h-[80px] bg-slate-800 flex justify-between items-center px-4 text-gray-100 z-30 antialiased'>
+    <div className=" rounded-full shadow-lg shadow-slate-800">
+      <img className="rounded-full" src="https://pixabay.com/get/gdcbc19003a477f1d9a44d428ac98ab9656819bdd19a92086ed0597d1ea31aedc4db0705c64d02c5e9b6f882bb19b9041_640.png" alt='Logo Image' style={{ width: '70px' }} />
     </div>
 
     {/* menu */}
-    <ul className='hidden md:flex md:text-xl font-bold'>
+    <ul className='hidden md:flex md:text-xl font-serif cursor-pointer'>
       <li className="pr-2 lg:pr-4">
         <Link to='Hero' smooth={true} duration={500}>
-          Inici
+          Inside Nature
         </Link>
       </li>
       <li className="pr-2 lg:pr-4">
         <Link to='Info' smooth={true} duration={500}>
-          Qui Som?
+          Actividades
         </Link>
       </li>
       <li className="pr-2 lg:pr-4">
         <Link to='Chackra' smooth={true} duration={500}>
-          Serveis
+          Expediciones
         </Link>
       </li>
       <li className="pr-2 lg:pr-4">
         <Link to='Instalacion' smooth={true} duration={500}>
-          Instalacio
+          Galeria
         </Link>
       </li>
       <li className="pr-2 lg:pr-4">
