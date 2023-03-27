@@ -76,12 +76,6 @@ export const Navbar = () => {
       </li>
       <li className='py-4 text-3xl'>
         {' '}
-        <Link onClick={handleClick} to='Instalacio' smooth={true} duration={500}>
-          Instalacio
-        </Link>
-      </li>
-      <li className='py-4 text-3xl'>
-        {' '}
         <Link onClick={handleClick} to='Contacte' smooth={true} duration={500}>
           Contacte
         </Link>
