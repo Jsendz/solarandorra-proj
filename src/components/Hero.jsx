@@ -20,7 +20,7 @@ export const Hero = () => {
           
           
       </div>
-      <div className="absolute w-full top-[4%] lg:top-[6.5%] xl:top-[8%]">
+      <div className="absolute w-full top-[5%] lg:top-[6.5%] xl:top-[8%]">
         <div className="flex flex-col w-full max-w-7xl mx-auto h-full items-center justify-around  ">
           <div className="text-center pb-10">
           <h1 className="text-5xl 2xl:text-6xl text-white font-serif font-bold ">Inside Nature Experience</h1>
