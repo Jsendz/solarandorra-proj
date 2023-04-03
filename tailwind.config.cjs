@@ -6,14 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-<<<<<<< HEAD
 
       fontFamily: {
         'Rajdhani': ['Rajdhani', 'sans-serif'] 
       }
-=======
-     
->>>>>>> 037676b61c88e153761a5089c999f52fe897ea1f
     },
   },
   plugins: [],
