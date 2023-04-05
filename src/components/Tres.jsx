@@ -1,0 +1,1 @@
+bg-[url('./assets/lake.jpg')] 2xl:bg-[url('./assets/lake2.jpg')]
