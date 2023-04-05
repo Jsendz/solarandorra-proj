@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import { RxDotFilled } from 'react-icons/rx';
+import ImageSlider from "./ImageSlider";
 
 
 
@@ -25,23 +24,7 @@ export const Hero = () => {
       },
     ];
 
-    const [currentIndex, setCurrentIndex] = useState (0)
-
-    const prevSlide = () => {
-      const isFirstSlide = currentIndex === 0;
-      const newIndex = isFirstSlide ? slides.length -1 : currentIndex -1;
-      setCurrentIndex(newIndex);
-    };
-
-    const nextSlide = () => {
-      const isLastSlide = currentIndex === slides.length - 1;
-      const newIndex = isLastSlide ? 0 : currentIndex + 1;
-      setCurrentIndex(newIndex);
-    };
-
-    const goToSlide = (slideIndex) => {
-      setCurrentIndex(slideIndex);
-    };
+    
 
 
 
@@ -49,25 +32,8 @@ export const Hero = () => {
 
     
     <div name='Hero' className=""  >
-        <div style={{backgroundImage: `url(${slides[1].url})`}}className=" brightness-75 relative w-full h-screen bg-no-repeat bg-cover bg-center ">
-        <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactLeft onClick={prevSlide} size={30} />
-      </div>
-      {/* Right Arrow */}
-      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactRight onClick={nextSlide} size={30} />
-      </div>
-      <div className='flex top-4 justify-center py-2'>
-        {slides.map((slide, slideIndex) => (
-          <div
-            key={slideIndex}
-            onClick={() => goToSlide(slideIndex)}
-            className='text-2xl cursor-pointer'
-          >
-            <RxDotFilled />
-          </div>
-        ))}
-      </div>
+        <div className=" brightness-75 relative w-full h-screen bg-no-repeat bg-cover bg-center ">
+        <ImageSlider slides={slides}/>
           
       </div>
       <div className="absolute w-full top-[17%] lg:top-[19%] xl:top-[23%]">

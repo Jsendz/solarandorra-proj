@@ -11,7 +11,7 @@ export const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full  h-[80px] bg-slate-800 flex justify-between items-center px-4 text-gray-100 z-30 antialiased'>
+    <div className='fixed w-full  h-[80px] bg-gray-100 flex justify-between items-center px-4 text-slate-800 z-30 antialiased'>
       
     <div className=" rounded-full shadow-lg shadow-slate-800 bg-[url('./assets/mountains.png')] w-[70px] h-[70px] bg-no-repeat bg-center bg-cover">
       
