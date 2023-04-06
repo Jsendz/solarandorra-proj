@@ -3,7 +3,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 const slideStyles = {
   width: "100%",
   height: "100%",
-  
+  borderRadius: "10px",
   backgroundSize: "cover",
   backgroundPosition: "center",
 };
@@ -36,7 +36,7 @@ const sliderStyles = {
 };
 
 const dotsContainerStyles = {
-  display: "block",
+  display: "flex",
   justifyContent: "center",
 };
 
@@ -47,7 +47,7 @@ const dotStyle = {
 };
 
 const slidesContainerStyles = {
-  display: "block",
+  display: "flex",
   height: "100%",
   transition: "transform ease-out 0.3s",
 };
@@ -76,12 +76,12 @@ const ImageSlider = ({ slides, parentWidth }) => {
   const getSlideStylesWithBackground = (slideIndex) => ({
     ...slideStyles,
     backgroundImage: `url(${slides[slideIndex].url})`,
-   
+    width: `${parentWidth}px`,
   });
   const getSlidesContainerStylesWithWidth = () => ({
     ...slidesContainerStyles,
     width: parentWidth * slides.length,
-    
+    transform: `translateX(${-(currentIndex * parentWidth)}px)`,
   });
 
   useEffect(() => {
@@ -130,4 +130,4 @@ const ImageSlider = ({ slides, parentWidth }) => {
   );
 };
 
-export default ImageSlider
+export default ImageSlider;
