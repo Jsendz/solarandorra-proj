@@ -4,7 +4,7 @@ import {FaPhoneAlt, FaMailBulk, FaLocationArrow, FaLinkedin, FaFacebookF, FaInst
 
 export const Contacte = () => {
   return (
-    <div name='Contacte' className="antialiased flex w-full h-full justify-center items-center bg-cyan-800">
+    <div name='Contacte' className="antialiased flex w-full h-full justify-center items-center bg-slate-600">
         <div className=" flex flex-col md:flex-row lg:justify-around md:space-x-6 md:space-y-0 space-y-6  w-full max-w-7xl p-8 sm:p-12 text-white overflow-hidden ">
             <div className=" flex flex-col space-y-8 justify-between">
                 <div>
@@ -19,12 +19,12 @@ export const Contacte = () => {
                 </div>
                 <div className="inline-flex space-x-2 items-center">
                     <FaMailBulk/> 
-                    <span>info@andsolar.com</span>
+                    <span>info@ine.com</span>
                 
                 </div>
                 <div className="inline-flex space-x-2 items-center">
                     <FaLocationArrow/> 
-                    <span>Carrer de la energia renovable, atic 3, Andorra </span>
+                    <span>Carrer del pic , atic 3, Andorra </span>
                 
                 </div>
                 </div>
@@ -36,8 +36,8 @@ export const Contacte = () => {
 
             </div>
             <div className="relative">
-                <div className="absolute w-40 h-40 bg-orange-400 rounded-full -right-28 -top-28 "></div>
-                <div className="absolute w-40 h-40 bg-orange-400 rounded-full -left-28 -bottom-16 "></div>
+                <div className="absolute w-40 h-40 bg-orange-600 rounded-full -right-28 -top-28 "></div>
+                <div className="absolute w-40 h-40 bg-orange-600 rounded-full -left-28 -bottom-16 "></div>
 
                 <div className="bg-white rounded-xl shadow-lg p-8 md:w-80 relative z-10">
                     <form action="" className="flex flex-col space-y-4">
