@@ -57,7 +57,7 @@ export const Hero = () => {
       }
       timerRef.current = setTimeout(() => {
         goToNext();
-      }, 8000);
+      }, 6000);
   
       return () => clearTimeout(timerRef.current);
     }, [goToNext]);
