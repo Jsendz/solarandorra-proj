@@ -2,7 +2,7 @@ import React from 'react'
 import { useCallback, useEffect, useRef, useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
-
+import { Link } from 'react-scroll';
 
 
 
@@ -99,6 +99,16 @@ export const Hero = () => {
           <h1 className="text-5xl 2xl:text-6xl text-white font-serif font-bold ">Inside Nature Experience</h1>
           <span className="text-2xl text-white mx-auto">Est. 2020</span>
           </div>
+          <div className="pt-20">
+            <button className="lg:hidden uppercase bg-gray-200 p-5 animate-bounce rounded-lg font-bold"><Link to='Contacte' smooth={true} duration={500}>
+          Aventurate!
+        </Link>
+
+            </button>
+            
+            </div>
+
+          
           <div className="hidden lg:w-full lg:flex flex-col lg:flex-row lg:justify-around lg:items-center lg:pt-10  text-center">
           <div className="bg-gray-200 hover:bg-white hover:cursor-pointer hover:shadow-xl rounded-lg w-60 xl:w-80 h-full ">
             <h2 className="text-center text-xl font-bold antialiased py-5">Quienes Somos</h2>
