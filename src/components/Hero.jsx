@@ -93,7 +93,7 @@ export const Hero = () => {
       </div>
           
       </div>
-      <div className="absolute w-full top-[17%] lg:top-[19%] xl:top-[23%]">
+      <div className="absolute w-full top-[7%] lg:top-[10%] xl:top-[11%]">
         <div className="flex flex-col w-full max-w-7xl mx-auto h-full items-center justify-around  ">
           <div className="text-center pb-10">
           <h1 className="text-5xl 2xl:text-6xl text-white font-serif font-bold ">Inside Nature Experience</h1>
@@ -109,20 +109,7 @@ export const Hero = () => {
             </div>
 
           
-          <div className="hidden lg:w-full lg:flex flex-col lg:flex-row lg:justify-around lg:items-center lg:pt-10  text-center">
-          <div className="bg-gray-200 hover:bg-white hover:cursor-pointer hover:shadow-xl rounded-lg w-60 xl:w-80 h-full ">
-            <h2 className="text-center text-xl font-bold antialiased py-5">Quienes Somos</h2>
-            <p className="px-6 xl:px-14 pb-5 text-sm xl:text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea repudiandae suscipit nemo fuga accusantium, ipsa ab sit dignissimos excepturi possimus!</p>
-        </div>
-        <div className="bg-gray-200 hover:bg-white hover:cursor-pointer hover:shadow-xl rounded-lg w-60 xl:w-80 h-full">
-            <h2 className="text-center text-xl font-bold antialiased py-5">Que queremos</h2>
-            <p className="px-6 xl:px-14 pb-5 text-sm xl:text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea repudiandae suscipit nemo fuga accusantium, ipsa ab sit dignissimos excepturi possimus!</p>
-        </div>
-        <div className="bg-gray-200 hover:bg-white hover:cursor-pointer hover:shadow-xl rounded-lg w-60 xl:w-80 h-full">
-            <h2 className="text-center text-xl font-bold antialiased py-5"> Que Ofrecemos</h2>
-            <p className="px-6 xl:px-14 pb-5 text-sm xl:text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea repudiandae suscipit nemo fuga accusantium, ipsa ab sit dignissimos excepturi possimus!</p>
-        </div>
-          </div>
+          
           </div>
 
       

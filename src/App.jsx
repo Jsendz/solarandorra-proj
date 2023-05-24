@@ -2,8 +2,10 @@
 
 import { Navbar }  from './components/Navbar';
 import { Hero } from './components/Hero';
-
+import {Actividades} from './components/Actividades';
+import {Expediciones} from './components/Expediciones';
 import { Contacte } from './components/Contacte';
+import Tres from './components/Tres';
 
 
 
@@ -13,6 +15,9 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      <Tres />
+      <Actividades />
+      <Expediciones />
       
       <Contacte />
       
