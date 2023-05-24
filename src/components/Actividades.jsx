@@ -3,7 +3,7 @@ import React from 'react'
 export const Actividades = () => {
   return (
     <div name='Actividades' className="w-full max-w-screen-2xl mx-auto h-full lg:h-screen ">
-    <h2 className="text-5xl xl:text-6xl font-bold text-slate-800 text-center pb-20">Actividades</h2>
+    <h2 className="text-5xl xl:text-6xl font-bold text-slate-800 text-center pt-20 lg:pb-20">Actividades</h2>
     <div className="w-full flex flex-col lg:flex-row lg:justify-around items-center pt-20">
       <div className="w-full flex flex-col justify-around items-center" >
         <h3 className="text-2xl xl:text-4xl font-semibold p-2">Deja correr tu imaginacion!</h3>
